@@ -1,0 +1,319 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'ubuntu';
+}
+body{
+    background-color: black;
+}
+
+
+#sideLine{
+    height: 100%;
+       width: 4%;
+       position: absolute;
+       top: 0%;
+       background-color: #00000061;
+     position:fixed;
+     display:flex;
+     flex-direction:column;  
+     align-items: space-around;
+   
+   }
+   #logoDisney{
+     height: 32%;
+       width: 132%;
+       
+       position: absolute;
+       background-image: url(disneyplus-removebg-preview.png);
+       background-repeat: no-repeat;
+       background-size: 96% 24%;
+   }
+   #button1{
+    height: 16%;
+       width: 94%;
+       position: absolute;
+       margin-top: 67%;
+   }
+   #subscribe1{
+     height: 45%;
+       width: 98%;
+       border-radius: 82px;
+       color: yellow;
+       border: 1px solid white;
+       background-color: black;
+   }
+   .menu{
+    margin-top: 306%;
+       width: 76%;
+       z-index: 1;
+       height: 100%;
+   }
+   .icons{
+    display: flex;
+       justify-content: space-between;
+       flex-direction: column;
+       align-items: center;
+       color: white;
+       list-style: none;
+       height: 136%;
+   }
+   .menu_options{
+    Width: 80%;
+    height: 145%;
+    position: absolute;
+    top: 95%;
+    left: 76%;  
+    background-color: #00000061;
+    display: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  padding: 15% 5%;
+}
+.Options{
+  text-decoration: none;
+  color: white;
+
+}
+.menu:hover+.menu_options{
+    transition: 1s;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      cursor: pointer;
+  }
+  
+  .menu_options:hover{
+    transition: 1s;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      cursor: pointer;
+    }
+.SecondFooter{
+    height: 35%;
+       width: 96%;
+       border: 1px solid black;
+       margin-left: 4%;
+       margin-top:3%;
+     display:flex;
+     justify-content:space-between;
+     padding:0px 36px;
+     /* position: fixed; */
+     bottom:0;
+     color: white;
+     
+   }
+   footer div{
+     display: flex;
+     flex-direction:column;
+   }
+
+   .same{
+     /* margin-top: 3%; */
+     line-height: 52px;
+     font-size: 18px;
+   }
+
+   .same1{
+     
+     font-size: 26px;
+     margin-bottom: 3%;
+   }
+   #Search{
+    height:100vh ;
+    position: relative;
+    width:100%;
+    border:1px solid black;
+    background-color: black;
+    display: flex;
+   }
+#search1{
+    height: 100vh;
+    width: 100%;
+    margin-left: 6%;
+    border: 1px solid black;
+}
+.searchButton{
+    height: 7%;
+    width: 92%;
+    border: 1px solid white;
+    border-radius: 21px;
+    margin-left: 5%;
+    margin-top: 3%;
+    background-color: black;
+    color: white;
+    padding-left: 95px;
+    font-size: 25px;
+
+}
+#thirdPage{
+    height:425px;
+    width:96%;
+    border:1px solid black; 
+    margin-left:4%;
+    display: flex;
+     justify-content: center; 
+    gap: 25px;
+    background-color:black;
+    margin-top:5%;
+  }
+  .six{
+    background-image: url("Screenshot from 2023-08-12 12-43-14.png");
+  }
+  .seven{
+    background-image: url("Screenshot from 2023-08-12 12-47-46.png");
+  }
+  .eight{
+    background-image:url("Screenshot from 2023-08-12 12-48-50.png");
+  }
+  .seven{
+    background-image:url("Screenshot from 2023-08-12 12-47-46.png");
+  }
+  .eight{
+  background-image:url("Screenshot from 2023-08-12 13-27-29.png");
+  }
+  .nine{
+    background-image:url("Screenshot from 2023-08-12 13-36-17.png");
+  }
+  .ten{
+    background-image:url("Screenshot from 2023-08-12 13-38-46.png");
+  }
+  #fourthPage{
+    height:425px;
+    width:96%;
+    border:1px solid black;
+    margin-left:4%;
+    display: flex;
+     justify-content: center; 
+    gap: 25px;
+    background-color:black;
+  }
+  .eleven{
+    background-image:url("Screenshot from 2023-08-12 16-28-06.png");
+  }
+  .twele{
+    background-image:url("Screenshot from 2023-08-12 16-34-43.png");
+  }
+  .thirteen{
+      background-image:url("Screenshot from 2023-08-12 16-38-07.png");
+  }
+  .fourteen{
+    background-image:url("Screenshot from 2023-08-12 16-43-32.png");
+  }
+  .fifteen{
+    background-image:url("Screenshot from 2023-08-12 16-48-33.png");
+  }
+
+  .Hover{
+    padding-bottom: 10%;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+  }
+  
+  .Element:hover .Hover{
+    animation: rowHover 0.5s linear 1;
+    display: flex;
+    background-size: 100% 55%;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 25px;
+  }
+
+  .Element{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .rowFirst{
+    height: 100%;
+    width:17%;
+    border:1px solid black;
+    position: relative;
+    border-radius: 25px;
+  }
+  .watch{
+        height: 5%;
+      width: 90%;
+      border: 1px solid black;
+      border-radius: 5px;
+      color: black;
+      font-size: 16px;
+  }
+  .years{
+    color:white;
+    font-size: 117%;
+    margin: 5% 0%;
+  }
+  .content{
+    transition: .3s;
+    color:gray;
+      font-size:98%;
+    display:none;
+  
+  }
+  .contents{
+    transition: .3s;
+    color:gray;
+    font-size:98%;
+    color: #bababa;
+  }
+ #fifthPage{
+    height:420px;
+    width:96%;
+    border:1px solid black;
+    margin-left:4%;
+    display: flex;
+     justify-content: center; 
+    gap: 25px;
+    background-color:black;
+  }
+  .sixteen{
+    background-image: url("Screenshot from 2023-08-13 07-58-32.png");
+  }
+  .seventeen{
+    background-image: url("Screenshot from 2023-08-13 08-03-14.png");
+  }
+  .eighteen{
+    background-image: url("Screenshot from 2023-08-13 08-05-23.png");
+  }
+  .nineteen{
+    background-image:url("Screenshot from 2023-08-13 08-07-25.png");
+  }
+  .twenty{
+    background-image: url("Screenshot from 2023-08-13 08-10-52.png");
+  }
+  .SecondFooter{
+    height: 35%;
+       width: 96%;
+       border: 1px solid black;
+       margin-left: 4%;
+       margin-top:38%;
+     display:flex;
+     justify-content:space-between;
+     padding:0px 36px;
+     /* position: fixed; */
+     bottom:0;
+     color: white;
+     
+   }
+   footer div{
+     display: flex;
+     flex-direction:column;
+   }
+
+   .same{
+     /* margin-top: 3%; */
+     line-height: 52px;
+     font-size: 18px;
+   }
+
+   .same1{
+     
+     font-size: 26px;
+     margin-bottom: 3%;
+   }

@@ -1,0 +1,51 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+#outerLogin{
+  height: 100vh;
+  width:65%;
+  border:1px solid black;
+  
+}
+.name{
+  height: 30%;
+  width:100%;
+  border:1px solid white;
+}
+#login3{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#login4{
+  width: 30vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+}
+.in{
+  height: 10%;
+  width: 90%;
+  margin-left: 5%;
+}
+.lab{
+  font-size: 25px;
+}
+.but{
+  font-size: 25px;
+  padding: 2%;
+  background: rgb(0,212,255);
+background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(17,51,139,1) 100%);
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 40%;
+  align-self: flex-end;
+}

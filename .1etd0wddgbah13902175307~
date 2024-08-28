@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="mySpace.css" rel="stylesheet" type="text/css"/>
+        <link rel="icon" type="image/x-icon" href="avatar-logo-6EDCD92C05-seeklogo.com.png">
+        <script src="https://kit.fontawesome.com/073803bc3c.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="MySpace">
+            <button id="help">? Help & More</button>
+
+            </button>
+        </div>
+        <div id="Login_to_Disney_Hotstar">
+<p id="log">Login to Disney+Hotstar</p><br>
+<p id="start">Start watching from where you left off, Personalise for Kids and more</p>
+<a href="#"><button id="lo">
+Log in
+</button></a>
+        </div>
+        <div id="sideLine">
+            <div id="logoDisney">
+              <div id="button1">
+                <button id="subscribe1">Subscribe ></button>
+              </div>
+            <div class="menu">
+            <ul class="icons">
+              <li><i class="fa-solid fa-user"></i></li>
+              <li><i class="fa-solid fa-magnifying-glass"></i></li>
+              <li><i class="fa-solid fa-house"></i></li>
+              <li><i class="fa-solid fa-tv"></i></li>
+              <li><i class="fa-solid fa-clapperboard"></i></li>
+              <li><i class="fa-solid fa-medal"></i></li>
+            </ul>
+            </div>
+              <div class="menu_options">
+                <a class="Options" href="mySpace.html"> My space </a>
+                <a class="Options" href="search.html"> Search </a>
+                <a class="Options" href="index.html"> Home </a>
+                <a class="Options" href="https://www.hotstar.com/in/shows"> TV </a>
+                <a class="Options" href="https://www.hotstar.com/in/movies"> Movies </a>
+                <a class="Options" href="https://www.hotstar.com/in/sports"> Sports </a>
+              </div>
+            </div>
+            </div>
+        <footer class="SecondFooter">
+        <div>
+            <h3 class="same1">Company</h3>
+            <a class="same">About us</a>
+            <a class="same">Careers</a>
+            
+          </div>
+          <div>
+            <h3 class="same1">View Website in</h3>
+            <a class="same">English</a>
+          </div>
+          <div>
+            <h3 class="same1">Need Help?</h3>
+            <a class="same">Visit help center</a>
+            <a class="same">Share Feedback</a>
+            
+          </div>
+          <div>
+            <h3 id="same2">Connect with us</h3>
+            <a class="same"><i class="fa-brands fa-facebook "></i> Facebook</a>
+            <a class="same"><i class="fa-brands fa-twitter "></i> Twitter</a>
+          </div>
+          </footer>
+    </body>
+</html>
